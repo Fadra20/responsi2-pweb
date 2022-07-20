@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> REKAP DATA HARIAN</title>
+	<style type="text/css">
+		#example2 {
+			  border: 1px solid;
+			  padding: 10px;
+			  box-shadow: 10px 10px #888888;
+			  width: 50%;
+			  background-image: url('../prak/anjay.jpg');
+			  border-radius: 10px;
+			}
+		#bawh {
+			border: 1px solid;
+			  padding: 10px;
+			  width: 25%;
+			  border-radius: 40px;
+			  background-color: beige;
+		}
+	</style>
+</head>
+<body background="anjay.jpg">
+	<br><br><br><br><br>
+	<center><div id="example2">
+		<img src="anjay.jpg" width="50px" height="50px" align="left">
+		<div align="center">
+			<strong>
+				<font size="6" face="courier ner, coutier, mono">
+					<br> TRANSAKSI BBM <br>
+				</font>
+			</strong>
+		</div>
+		<center> **lengkapi data berikut** </center><br>
+		<form name="form1" method="post" action="responsi21.php">
+			<table width="40%" border="0" align="center">
+				<tr align="center">
+					<td>Nama Lengkap</td>
+					<td><input type="text" name="nama" id="nama"></td>
+				</tr>
+				<tr align="center">
+					<td>jumlah liter</td>
+					<td><input type="text" name="jumlah" id="jumlah"></td>
+				</tr>
+				<tr align="center">
+					<td>jenis BBM</td>
+					<td>
+						<select name="jenis" id="jenis">
+							<option>bensin</option>
+							<option>diesel</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="center">
+					<td>pembayaran</td>
+					<td><textarea name="pembayaran" id="pembayaran"></textarea></td>
+				</tr>
+				<tr align="center">
+					<td>&nbsp;</td>
+					<td>
+						<input type="submit" name="submit" value="kirim"><input type="reset" name="submit2" value="batal"><br><br>
+					</td> 
+				</tr>
+			</table>
+		</form>
+		
+	</div><br><br><br><br>
+		
+	</center>
+
+		<div id="bawh">
+			
+			<table><tr><th>
+			<strong><a href="nyoba2.php">::Lihat Data::</a></strong></th></tr>
+		</div></table>
+</body>
+</html>
